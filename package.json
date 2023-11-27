@@ -1,0 +1,38 @@
+{
+  "name": "wallet_online",
+  "version": "1.0.0",
+  "description": "a wallet online, for manage your finances and order your bills and sanvings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolscacu770/wallet_online-elect_II.git"
+  },
+  "keywords": [
+    "nodeJs",
+    "javaScript",
+    "express",
+    "EJS",
+    "JSON",
+    "wallet",
+    "finances",
+    "manage",
+    "money"
+  ],
+  "author": "Nicolas Cacua & Sergio Aguirre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolscacu770/wallet_online-elect_II/issues"
+  },
+  "homepage": "https://github.com/nicolscacu770/wallet_online-elect_II#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9"
+  }
+}

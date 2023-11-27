@@ -1,0 +1,48 @@
+#modal {
+    width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  #modal input{
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; 
+  }
+  
+  #modal button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #modal .btn-modal {
+    background-color: #3498db;
+    color: #fff;
+    margin-right: 10px; 
+    margin-bottom: 5px; 
+    display: inline-block; 
+  }
+  
+  #modal .btn-modal:hover {
+  background-color: black; 
+  }
+
+  .btn-agregar {
+    background-color: #3498db;
+    color: #fff;
+    margin-right: 10px; 
+    margin-bottom: 5px; 
+    display: inline-block; 
+  }
+  
+  .btn-agregar:hover {
+  background-color: gray; 
+  }

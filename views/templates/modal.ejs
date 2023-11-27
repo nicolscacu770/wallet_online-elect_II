@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/css/styles_modal.css">
+
+<button href="" class="btn btn-agregar" onclick="window.modal.showModal();">Agregar registro</button>
+
+    <dialog id="modal">    
+    <h1>Nuevo movimiento</h1>
+
+    <label>Nombre</label>
+    <input id="name"></input><br>
+
+    <label>Descripcion</label>
+    <input id="descripcion"></input><br>
+
+    <label>Tipo</label>
+    <input id="tipo"></input><br>
+
+    <label>Valor</label>
+    <input type="number" id="valor" name="valor"><br>
+
+    <button class="btn btn-modal" id="btnSend">Enviar</button>
+    <button class="btn btn-modal" id="btnCerrar" onclick="window.modal.close();">Cerrar</button>
+    </dialog>
+    <!--
+    para javascript queda así
+    const fecha = new Date();
+    const opciones = {day: 'numeric', month: 'long', year: 'numeric'};
+    console.log(fecha.toLocaleDateString('es-ES', opciones));
+-->
